@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-10-02T20:48:48+03:00"
+    FORMAT="2.7" VERSION="2.7"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///C:/Users/1/Downloads/Kaliningrad_mvd2006.mp4"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./Kaliningrad_mvd2006.mp4"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:cd4f1c45-8f9a-4119-9b83-272819a62a96</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">6</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1016000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="1018520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="1018800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="1019460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="1020300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="1020630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="1021390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="1035810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="1035980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="1054000"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
+    <TIER ANNOTATOR="reen004" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@mvd2006f" TIER_ID="text@mvd2006f">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts3">
+                <ANNOTATION_VALUE>блин,всем так интересно вот это / немецкое наследие, да? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>блин на самом деле </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>/ ну вот это звучит наверно как зажравшийся житель Калининграда / ноо я лично не особо обращаю на это внимание потому чтоо / ну вот есть несколькоо / вот именно зданийй / отреставрированных которые вот несут именно вот культурную функцию / там может слышала кафедральный собоор / или королевские ворота но вот это именно немецкие здания которые просто отреставрировали там даже кирпичики всякие немецкие остались / #вдох# / ноо они меня не особо привлекают там всегда много народу / ну и в целом они такие / растиражированные / мне очень нравится / у нас есть в Калининграде целые оставшиеся немецкие районы</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="reen004" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@konigmaxim" TIER_ID="text@eyb2006f">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts5">
+                <ANNOTATION_VALUE>даа / #смеётся#</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+                TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts9">
+                <ANNOTATION_VALUE>#угу#</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="utterance" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="words" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="phonetic_transcription" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="gesture" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision"
+        CONTROLLED_VOCABULARY_REF="Gesture phases"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="gesture_phases" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="gesture_meaning" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        CONTROLLED_VOCABULARY_REF="POS" GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="part of speech" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="intonation" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="pause" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="focus" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        CONTROLLED_VOCABULARY_REF="Gesture organs"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="gesture_organs" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="RU" LANGUAGE_CODE="ru"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="Gesture phases" DESCRIPTION="Gesture phases">
+        <CV_ENTRY DESCRIPTION="preparation">preparation</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="stroke">stroke</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="hold">hold</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="partial retraction">part.retraction</CV_ENTRY>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="POS" DESCRIPTION="Part of Speech">
+        <CV_ENTRY DESCRIPTION="noun">NOUN</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="proper noun">PROPN</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="verb">VERB</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="adjective">ADJ</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="adverb">ADV</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="predicative">PRAEDIC</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="pronoun">PRON</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="determiner (adjectival pronoun)">DET</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="numeral">NUM</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="adjectival numeral">ANUM</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="preposition or postposition">ADP</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="conjunction">CONJ</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="particle">PART</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="interjection">INTJ</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="symbol">SYM</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="foreign and other tokens">X</CV_ENTRY>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Gesture organs" DESCRIPTION="Active gesture organs">
+        <CV_ENTRY DESCRIPTION="any finger or their combination">finger</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="hand or parts of hand excluding fingers">hand</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="face, nose, ear, temple and others">head</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="neck, shoulders, feet, belly and other parts of body">body</CV_ENTRY>
+        <CV_ENTRY>finger, hand</CV_ENTRY>
+        <CV_ENTRY>finger, head</CV_ENTRY>
+        <CV_ENTRY>finger, body</CV_ENTRY>
+        <CV_ENTRY>hand, head</CV_ENTRY>
+        <CV_ENTRY>hand, body</CV_ENTRY>
+        <CV_ENTRY>head, body</CV_ENTRY>
+        <CV_ENTRY>finger, hand, head</CV_ENTRY>
+        <CV_ENTRY>finger, hand, body</CV_ENTRY>
+        <CV_ENTRY>finger, head, body</CV_ENTRY>
+        <CV_ENTRY>hand, head, body</CV_ENTRY>
+        <CV_ENTRY>finger, hand, head, body</CV_ENTRY>
+    </CONTROLLED_VOCABULARY>
+</ANNOTATION_DOCUMENT>
